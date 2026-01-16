@@ -1,11 +1,22 @@
 Flutter To-Do List App
 
-A simple and functional To-Do List mobile application built with Flutter as part of the CSC 315 Mobile Application Development course.
-The app allows users to manage daily tasks efficiently using local storage.
+CSC 315 – Mobile Application Development
 
-📱 Features
+A simple and functional To-Do List mobile application built with Flutter.
+This project demonstrates task management using local storage and a clean mobile UI.
 
-Create new tasks
+
+
+Overview
+
+The Flutter To-Do List App helps users organize daily tasks by allowing them to create, update, complete, and delete tasks.
+All data is stored locally, ensuring fast access and offline functionality.
+
+
+
+Features
+
+Add new tasks
 
 Edit existing tasks
 
@@ -13,44 +24,48 @@ Delete tasks
 
 Mark tasks as completed
 
-Clean and simple user interface
+Simple and user-friendly interface
 
-Local data storage using Hive
+Persistent local storage using Hive
 
-🛠️ Technologies Used
 
-Flutter (Dart)
 
-Hive – lightweight NoSQL database for local storage
+Tools & Technologies
 
-Material Design components
+Flutter (Dart) – Mobile app framework
+
+Hive – Lightweight NoSQL local database
+
+Material Design – UI components
 
 📂 Project Structure
 lib/
-├── main.dart              # Application entry point
-├── models/                # Task data model
-├── screens/                 # App screens (UI)
+├── main.dart        # App entry point
+├── models/          # Task data models
+├── screens/           # Application screens
 
 
-🚀 How to Run the Project
+🚀 Getting Started
 
-Ensure Flutter is installed:
+Follow the steps below to run the project:
+
+Check Flutter installation
 
 flutter doctor
 
 
-Install dependencies:
+Install dependencies
 
 flutter pub get
 
 
-Run the app:
+Run the application
 
 flutter run
 
-📚 Learning Resources
+📚 References
 
-This project was developed by following the course materials and tutorials:
+This project was developed with guidance from the following tutorials:
 
 Flutter To-Do App Tutorial
 https://youtu.be/qpP-29-GJ7M
@@ -58,15 +73,17 @@ https://youtu.be/qpP-29-GJ7M
 Hive Database Integration
 https://youtu.be/FUw4ppr3Tm0
 
-🧠 What This Project Demonstrates
+🎯 Learning Outcomes
 
-Flutter app structure and navigation
+This project demonstrates:
+
+Flutter project structure
 
 CRUD operations (Create, Read, Update, Delete)
 
-Local database integration with Hive
+Local data storage using Hive
 
-Proper file organization
+Clean file organization
 
 Basic state management
 
