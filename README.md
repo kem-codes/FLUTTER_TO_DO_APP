@@ -1,4 +1,4 @@
-#Flutter To-Do List App
+Flutter To-Do List App
 
 A simple and functional To-Do List mobile application built with Flutter as part of the CSC 315 Mobile Application Development course.
 The app allows users to manage daily tasks efficiently using local storage.
